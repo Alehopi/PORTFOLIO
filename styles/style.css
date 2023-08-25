@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+body {
+    background-color: #0D0D0D;
+    color: white;
+    font-family: 'Epilogue', sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 98px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 68px;
+}
+
+.linkedin-icon {
+    height: 43px;
+}
+
+
+h1 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 26px;
+
+}
+
+h3 {
+    font-size: 20px;
+    color: white;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.html-group {
+    width: 96px;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-110 {
+    gap: 110px
+}
+
+.gap-60 {
+    gap: 60px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.about-section {
+    padding: 0 186px 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-header {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    padding: 110px 186px 0;
+}
+
+.title-project {
+    height: 40px;
+}
+
+.projects-name {
+    color: #FFF;
+    font-family: Epilogue;
+    font-size: 20px;
+}
+
+.title-skills {
+    font-size: 100px;
+}
+
+.chips-skills {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(40% - 20px);
+    gap: 24px;
+    height: 617px;
+}
+
+
+.img-container:hover {
+    -webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+
+}
+
+.img-container {
+    height: 90%;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 9px;
+    object-fit: cover;
+}
+
+
+
+.About {
+    height: 25vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+
+
+.main-btn-see-more {
+    color: #0D0D0D;
+    background-color: white;
+    border-radius: 100px;
+    width: 115px;
+    height: 20px;
+    font-size: 24px;
+    align-items: center;
+    padding: 30px;
+}
+
+.conjunto-about {
+    margin: 40px;
+}
+
+.main-btn-see-more {
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+.main-btn-see-more:hover {
+    background-color: #0D0D0D;
+    color: white;
+    border: 3px solid;
+    border-color: white;
+}
+
+.application {
+    display: flex;
+    gap: 133px;
+}
+
+.application img {
+    width: 100%;
+}
+
+.html-group {
+    gap: 30px;
+
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+
+
+    100% {
+        -webkit-transform: scale(1.06);
+        transform: scale(1.06);
+    }
+}
